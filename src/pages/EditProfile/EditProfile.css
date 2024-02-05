@@ -1,0 +1,94 @@
+.editProfile {
+    display: flex;
+    font-family: poppins, sans-serif;
+}
+
+.editProfile--information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    left: 6.25rem;
+    row-gap: 1rem;
+}
+
+.editProfile--inputs {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.625rem;
+}
+
+#bioTextarea {
+    border: 1px solid #C6C6C6;
+    resize: none;
+    border-radius: 1.25rem;
+    padding: 1rem;
+    font-family: poppins, sans-serif;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown--content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 13rem;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 1.25rem;
+}
+
+.dropdown--content h4:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown--content {
+    display: block;
+}
+
+#dropdown--male {
+    padding: 1rem 0rem 1rem 1rem;
+    border-radius: 1.25rem 1.25rem 0rem 0rem;
+}
+
+#dropdown--female {
+    padding: 1rem 0rem 1rem 1rem;
+    border-radius: 0rem 0rem 1.25rem 1.25rem;
+}
+
+#changePhoto {
+    background-color: #8088E8;
+    padding: 0.625rem 1rem 0.625rem 1rem;
+    color: white;
+    font-weight: 700;
+    border-radius: 1.25rem;
+}
+
+.editProfile--inputs input {
+    width: 39rem;
+}
+
+#submitButton {
+    background-color: #8088E8;
+    padding: 0.625rem 1rem 0.625rem 1rem;
+    color: white;
+    font-family: poppins, sans-serif;
+    font-weight: 700;
+    border-radius: 1.25rem;
+    font-size: 1rem;
+    margin: auto;
+}
+
+.profilePic {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+#newProfilePic {
+    width: 6rem;
+    border-radius: 50%;
+}

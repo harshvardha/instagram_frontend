@@ -1,0 +1,46 @@
+.searchResult {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 1rem;
+    padding: 0.625rem 0rem 0.625rem 1rem;
+}
+
+#searchResult--logo {
+    width: 4rem;
+    border-radius: 50%;
+}
+
+.searchResult--brief {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+}
+
+#searchResult--name {
+    position: relative;
+    display: flex;
+    align-items: center;
+    column-gap: 0.2rem;
+}
+
+#searchdot {
+    background-color: white;
+    border: 2px solid grey;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+#followers {
+    margin-left: 1rem;
+}
+
+/* .searchResult:hover {
+    background-color: #919295;
+} */
+
+.searchResult:hover {
+    background-color: #919193;
+}

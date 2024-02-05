@@ -1,0 +1,67 @@
+.signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 15px;
+    margin-top: 2.8rem;
+}
+
+.signup--form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #C6C6C6;
+    padding: 10px 20px 70px 20px;
+    row-gap: 10px;
+    font-family: poppins;
+}
+
+.signup--form--about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1.5rem;
+}
+
+.signup--form--details {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.login_with_facebook {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding: 5px 40px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #8392FF;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.signupButton {
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 0px;
+    background-color: #8392FF;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.entry {
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 1px solid #C6C6C6;
+}
+
+.loginOption {
+    border: 1px solid #C6C6C6;
+    padding: 1rem 8rem;
+    font-family: poppins;
+}

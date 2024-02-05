@@ -1,0 +1,35 @@
+.comment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: poppins, sans-serif;
+    color: white;
+}
+
+.comment--user {
+    display: flex;
+    align-items: flex-start;
+    column-gap: 1rem;
+}
+
+.comment--details {
+    display: flex;
+    flex-direction: column;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    font-size: 0.75rem;
+}
+
+.comment--actions {
+    display: flex;
+    column-gap: 0.625rem;
+}
+
+#comment_user_logo {
+    width: 3rem;
+    border-radius: 50%;
+}
